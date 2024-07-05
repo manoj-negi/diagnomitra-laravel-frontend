@@ -77,7 +77,7 @@
                     <div class="nav-links al w-100">
                         <ul class="links">
                             <li><a href="/" class="fontStyle7">Home</a></li>
-                            <li><a href="{{ URL::asset('about-us')}}" class="fontStyle7">About Us</a></li>
+                            <li><a href="{{ url('about-us') }}" class="fontStyle7">About Us</a></li>
                             <li><a href="{{ URL::asset('partner')}}" class="fontStyle7">Partner</a></li>
                             <li><a href="{{ URL::asset('blog')}}" class="fontStyle7">Blog</a></li>
                             <li><a href="{{ URL::asset('contact-us')}}" class="fontStyle7">Contact Us</a></li>
