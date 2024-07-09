@@ -8,15 +8,16 @@ class BlogPostController extends Controller
 {
     public function index()
     {
-        // Fetch all blog posts without considering the status
-        $blogPosts = BlogPost::orderBy('created_at', 'desc')->get();
+        // Fetch only published blog posts for the user panel
+        $blogPosts = BlogPost::where('is_published', 1)->orderBy('created_at', 'desc')->get();
         return view('user.blogposts.index', compact('blogPosts'));
     }
 
-    public function show($id)
-    {
-        // Fetch a single blog post by its ID
-        $blogPost = BlogPost::findOrFail($id);
-        return view('user.blogposts.show', compact('blogPost'));
-    }
+  public function show($slug)
+{
+    $blogPost = BlogPost::where('slug', $slug)->firstOrFail();
+    return view('user.blogposts.show', compact('blogPost'));
+}
+
+    
 }

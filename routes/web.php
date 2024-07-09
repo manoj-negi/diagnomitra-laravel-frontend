@@ -8,7 +8,9 @@ use App\Http\Controllers\BookTestController;
 use App\Http\Controllers\BlogPostController;
 
 Route::get('/blogposts', [BlogPostController::class, 'index'])->name('blogposts.index');
-Route::get('/blogposts/{id}', [BlogPostController::class, 'show'])->name('blogposts.show');
+Route::get('/blogposts/{slug}', [BlogPostController::class, 'show'])->name('blogposts.show');
+
+
 
 
 Route::get('/form', function () {
