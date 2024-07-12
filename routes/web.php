@@ -47,3 +47,6 @@ Route::get('/refund-policy', function () {
 Route::get('/terms-of-service', function () {
     return view('terms-of-service');
 });
+Route::get('/blogposts', function () {
+    return view('blogposts');
+});

@@ -1,3 +1,16 @@
+<!-- <div class="container">
+    <h1>{{ $blogPost->title }}</h1>
+    <img src="{{ env('AWS_URL') . '/' . $blogPost->image }}" class="img-fluid" alt="{{ $blogPost->title }}">
+    <p>{{ $blogPost->content }}</p>
+    <p><strong>Author:</strong> {{ $blogPost->author }}</p>
+</div>
+
+
+ -->
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,39 +21,52 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blog | diagnomitra</title>
 <meta name="description" content="">
-<link rel="canonical" href="blog.html"/>
+<link rel="canonical" href="blog"/>
 
-  <script src="ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-  <script src="cdn.jsdelivr.net/npm/bootstrap%405.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="unpkg.com/aos%402.3.1/dist/aos.js"></script>
-  <script src="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
-  <script src="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
-  <script src="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>
 
-<link href="cdn.jsdelivr.net/npm/bootstrap%405.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- External stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <link rel="preconnect" href="fonts.googleapis.com/index.html">
-  <link rel="preconnect" href="fonts.gstatic.com/index.html" crossorigin>
-  <link href="fonts.googleapis.com/css2df7e.css?family=Quicksand:wght@500;600;700&amp;display=swap" rel="stylesheet"> 
-  <link href="fonts.googleapis.com/css2db6f.css?family=Roboto+Flex&amp;display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <!-- AOS Css -->
-  <link href="unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
-  
-  
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" />
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery-bundle.min.css">
-  <link rel="stylesheet" href="static.joonsite.com/storage/21443/20284/assets/style1123.css?v=20240509094431">
-  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2db6f.css?family=Roboto+Flex&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet" href="https://static.joonsite.com/storage/21443/20284/assets/style1123.css?v=20240509094431">
+    <script src="/ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+   
+   <script src="/unpkg.com/aos%402.3.1/dist/aos.js"></script>
 
+
+   <link rel="preconnect" href="/fonts.googleapis.com/index.html">
+   <link rel="preconnect" href="/fonts.gstatic.com/index.html" crossorigin>
+   <link
+       href="/fonts.googleapis.com/css2df7e.css?family=Quicksand:wght@500;600;700&amp;display=swap"
+       rel="stylesheet">
+   <link
+       href="/fonts.googleapis.com/css2db6f.css?family=Roboto+Flex&amp;display=swap"
+       rel="stylesheet">
+     
+
+   <!-- AOS Css -->
+   <link href="/unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+
+   <link rel="stylesheet"
+       href="/static.joonsite.com/storage/21443/20284/assets/style1123.css?v=20240509094431">
 
 <meta name="robots" content="noindex" />
 <meta name="generator" content="Joonweb.com Website Builder"/>
-<link rel="icon" type="image/ico" href="static.joonsite.com/storage/21443/media/2404251157347610.png" size="16x16"><link href="fonts.googleapis.com/cssbb8b.html?family=Quicksand%2C+sans-serif%7CTimes+New+Roman%7CNunito+Sans%7CRoboto+Flex%2C+sans-serif" rel="stylesheet">
+<link rel="icon" type="image/ico" href="static.joonsite.com/storage/21443/media/2404251157347610.png" size="16x16">
 
 <style>
     :root{
@@ -259,6 +285,41 @@ body{overflow-x:hidden;}
         overflow: hidden;
       }
     
+
+      .cont {
+            max-width: 1140px; 
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        } 
+
+        .blog-image img {
+            width: 100%;
+            height: 500px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .blog-content p {
+            margin-bottom: 15px;
+            font-size: 1.1rem; 
+            line-height: 1.8; 
+        }
+
+        .blog-content strong {
+            font-weight: bold;
+        }
+
+        .blog-content img {
+            max-width: 100%; /* Ensure images within content are responsive */
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
         /* ------ word_limit_2 end ----------- */
   
 
@@ -267,36 +328,22 @@ body{overflow-x:hidden;}
   </style>
     
 </head>
-<style>
-    #blog_1 .theme-title .jwset {
-        font-size: 24px;
-        font-family: Arial, sans-serif;
-        font-weight: bold;
-        line-height: 1.5;
-        letter-spacing: 1px;
-    }
-
-    #blog_1 .theme-subtitle .jwset {
-        font-size: 18px;
-        font-family: Arial, sans-serif;
-        font-weight: normal;
-        line-height: 1.5;
-        letter-spacing: 1px;
-    }
-
-    .word_limit_3 {
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-    }
-</style>
+<body>
 @include('header')
+
 <div class="container">
-    <h1>{{ $blogPost->title }}</h1>
-    <img src="{{ env('AWS_URL') . '/' . $blogPost->image }}" class="img-fluid" alt="{{ $blogPost->title }}">
-    <p>{{ $blogPost->content }}</p>
-    <p><strong>Author:</strong> {{ $blogPost->author }}</p>
+    <div class="cont">
+        <h1>{{ $blogPost->title }}</h1>
+        <div class="blog-image">
+            <img src="{{ env('AWS_URL') . '/' . $blogPost->image }}" class="img-fluid" alt="{{ $blogPost->title }}">
+        </div>
+        <div class="blog-content">
+            {!! nl2br(e($blogPost->content)) !!}
+            <p><strong>Author:</strong> {{ $blogPost->author }}</p>
+        </div>
+    </div>
 </div>
 
- 
+<style>#footer_13 .media-fit img{object-fit:contain;height:40px}@media screen and (min-width:750px){#footer_13 .media-fit img{object-fit:contain;height:40px}}#footer_13 .theme-title .jwset{font-size:px;font-family:;font-weight:;line-height:;letter-spacing:}#footer_13 .theme-subtitle .jwset{font-size:px;font-family:;font-weight:;line-height:;letter-spacing:}</style><style>@media(max-width:600px){.footer_copy{text-align:center}}</style><footer class="footer background5" id="footer_13" style="width:100%;"><div class="container"><div class="row d-flex justify-content-between py-5 gap-4"><div class="col-lg-4 col-md-6 col-sm-12"><div class="footer_style"><a href="javascript:void(0);" class="footer_logo media-fit"><img src="/static.joonsite.com/storage/21443/media/2404241259411841.png" alt=""></a><div class="fontStyle7 mt-3 theme-subtitle">Your Trusted Healthcare Partner. Streamlining healthcare access with accurate diagnostics, advanced technologies, and expert care. Experience convenience, reliability, and excellence in every interaction.</div></div></div><div class="col-lg-3 col-md-6 col-sm-12"><div class="footer_style footer_new"><div class="fontStyle7 mb-4">Quick links</div><ul><li><a href="/" class="fontStyle7"><i class="fa-solid fa-caret-right"></i>Home</a></li><li><a href="{{ URL::asset('about-us')}}" class="fontStyle7"><i class="fa-solid fa-caret-right"></i>About Us</a></li><li><a href="{{ URL::asset('partner')}}" class="fontStyle7"><i class="fa-solid fa-caret-right"></i>Partner</a></li><li><a href="{{ URL::asset('blog')}}" class="fontStyle7"><i class="fa-solid fa-caret-right"></i>Blog</a></li><li><a href="{{ URL::asset('contact-us')}}" class="fontStyle7"><i class="fa-solid fa-caret-right"></i>Contact Us</a></li><li><a href="javascript:void(0);" class="fontStyle7"><i class="fa-solid fa-caret-right"></i>Policy</a></li></ul></div></div><div class="col-lg-3 col-md-6 col-sm-12"><div class="footer_style"><div class="footer_icon pb-3 light-border fontStyle7 mb-3 d-flex"><i class="fa-solid fa-envelope"></i> help@diagnomitra.com</div><div class="footer_icon pb-3 light-border fontStyle7 mb-3 d-flex"><i class="fa-solid fa-envelope"></i> diagnomitralabs@gmail.com</div><div class="footer_icon fontStyle7 mb-3 d-flex"><i class="fa-solid fa-phone"></i> +91-7055001141</div></div></div></div><div class="footer_socel_icon d-flex gap-10 mb-5 justify-content-center"><div class="fontStyle8 rounded-circle background1"><a href="https:// https://www.facebook.com/Diagnomitra"><i class="fab fa-facebook-f"></i></a></div><div class="fontStyle8 rounded-circle background1"><a href="https://www.instagram.com/diagnomitra/"><i class="fab fa-instagram"></i></a></div><div class="fontStyle8 rounded-circle background1"><a href="https://www.linkedin.com/company/diagnomitra-healthcare/mycompany/?viewAsMember=true"><i class="fab fa-linkedin"></i></a></div></div></div><div class="w-100 m-0 background1"><div class="container"><div class="footer_copy py-2 d-flex justify-content-center flex-wrap fontStyle7"><div class="fontStyle8">Copyright © diagnomitra 2024. All rights reserved.</div></div></div></div></footer>
+</body>
+</html>
