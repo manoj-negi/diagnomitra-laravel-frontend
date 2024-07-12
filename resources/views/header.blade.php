@@ -79,7 +79,7 @@
                             <li><a href="/" class="fontStyle7">Home</a></li>
                             <li><a href="/about-us" class="fontStyle7">About us</a></li>
                             <li><a href="{{ URL::asset('partner')}}" class="fontStyle7">Partner</a></li>
-                            <li><a href="{{ URL::asset('blog')}}" class="fontStyle7">Blog</a></li>
+                            <li><a href="{{ URL::asset('blogposts')}}" class="fontStyle7">Blog</a></li>
                             <li><a href="{{ URL::asset('contact-us')}}" class="fontStyle7">Contact Us</a></li>
                             <li><a href="javascript:void(0);" class="fontStyle7">Policy</a><i
                                     class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
