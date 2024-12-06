@@ -1,3 +1,131 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify OTP</title>
+    <style>
+        /* Inline CSS for a simple and clean design */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card-header {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .alert {
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+        .alert-success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .alert-danger {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .btn-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #007bff;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .btn-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">Account Delete</div>
+        <div class="card-body">
+            @if (session('error'))
+                <div class="alert alert-danger">{{ session('error') }}</div>
+            @endif
+            @if (session('success'))
+                <div class="alert alert-success">{{ session('success') }}</div>
+            @endif
+
+            <form method="POST" action="{{ route('otp.verify.submit') }}">
+                @csrf
+                <input type="hidden" name="phoneNumber" value="{{ $phoneNumber }}">
+
+                <div class="form-group">
+                    <label for="otp">Enter OTP</label>
+                    <input type="text" id="otp" name="otp" class="form-control" placeholder="Enter the OTP sent to your phone" required>
+                </div>
+
+                <button type="submit" class="btn">Delete Account</button>
+            </form>
+
+            <div class="text-center">
+                <a href="{{ route('otp.form') }}" class="btn-link">Back to OTP form</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html> -->
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,39 +134,56 @@
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog | diagnomitra</title>
-<meta name="description" content="">
-<link rel="canonical" href="blog.html"/>
+<title> Diagnomitra Blog | Blood Test At Home Service Packages</title>
+<!-- Toastr CSS -->
+<!-- Add in your Blade file's <head> -->
+    <!-- Toastify CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.css" />
 
-  <script src="ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-  <script src="cdn.jsdelivr.net/npm/bootstrap%405.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="unpkg.com/aos%402.3.1/dist/aos.js"></script>
-  <script src="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
-  <script src="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
-  <script src="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>
+<!-- Toastify JS -->
 
-<link href="cdn.jsdelivr.net/npm/bootstrap%405.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Toastr JS -->
 
-  <link rel="preconnect" href="fonts.googleapis.com/index.html">
-  <link rel="preconnect" href="fonts.gstatic.com/index.html" crossorigin>
-  <link href="fonts.googleapis.com/css2df7e.css?family=Quicksand:wght@500;600;700&amp;display=swap" rel="stylesheet"> 
-  <link href="fonts.googleapis.com/css2db6f.css?family=Roboto+Flex&amp;display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <!-- AOS Css -->
-  <link href="unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+<meta name="description" content="Stay updated with the latest healthcare insights on the Diagnomitra Blog. Discover information on blood test home services.">
+<link rel="canonical" href="https://www.diagnomitra.com/blog"/>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M7L29W0RRD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-M7L29W0RRD');
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery-bundle.min.css">
+
+    <link rel="stylesheet" href="/static.joonsite.com/storage/21443/20284/assets/style1123.css?v=20240509094431">
   
-  
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" />
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery-bundle.min.css">
-  <link rel="stylesheet" href="static.joonsite.com/storage/21443/20284/assets/style1123.css?v=20240509094431">
-  
 
 
-<meta name="robots" content="noindex" />
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="Blood test at home, Blood test package, Blood test to check vitals, Blood test home collection near me, Blood test offers, Blood test near me at home, Blood test package near me">
 <meta name="generator" content="Joonweb.com Website Builder"/>
 <link rel="icon" type="image/ico" href="static.joonsite.com/storage/21443/media/2404251157347610.png" size="16x16"><link href="fonts.googleapis.com/cssbb8b.html?family=Quicksand%2C+sans-serif%7CTimes+New+Roman%7CNunito+Sans%7CRoboto+Flex%2C+sans-serif" rel="stylesheet">
 
@@ -292,53 +437,57 @@ body{overflow-x:hidden;}
     }
 </style>
 @include('header')
-<section class="blog-fleed padding-4" id="blog_1">
-    <div class="container">
-        <div class="top-box text-center text-lg-center content-padding">
-            <div class="fontStyle3 theme-title jwset">Latest Blogs</div>
-          
-        </div>
-        <div class="row gy-4 feed-ul">
-            @foreach ($blogPosts as $blogPost)
-            <div class="feed-list col-12 col-sm-6 col-12 col-md-4">
-                <div class="list-in text-start text-lg-start">
-                    <figure class="column-media-fit">
-                        <img src="{{ env('AWS_URL') . '/' . $blogPost->image }}"  alt="{{ $blogPost->title }}" style="max-width: 100%; max-height: 270px; vertical-align: middle">
-                    </figure>
-                    <ul class="feed-box d-flex flex-wrap justify-content-between py-3 fontStyle9">
-                        <li class="opacity1">
-                            <a href="{{ route('blogposts.show', $blogPost->id) }}">
-                                <i class="fa-solid fa-eye me-2"></i>
-                                <span class="para">2</span>
-                            </a>
-                        </li>
-                        <li class="opacity1">
-                            <a href="{{ route('blogposts.show', $blogPost->id) }}">
-                                <i class="fa-solid fa-user me-2"></i>
-                                <span class="para">{{ $blogPost->author }}</span>
-                            </a>
-                        </li>
-                        <li class="opacity1">
-                            <a href="{{ route('blogposts.show', $blogPost->id) }}">
-                                <i class="fa-solid fa-calendar-days me-2"></i>
-                                <span class="para">{{ $blogPost->created_at->format('d-m-Y') }}</span>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="feed-list-cont">
-                        <div class="fontStyle4 list-title">{{ $blogPost->title }}</div>
-                        <div class="para list-para fontStyle7 mt-2 word_limit_3">{{ $blogPost->content }}</div>
-                        <div class="list-btn btn fontStyle7 mt-2">
-                        <a href="{{ route('blogposts.show', $blogPost->slug) }}" class="color1">Read More <i class="fa-solid fa-angles-right"></i></a>
 
-                        </div>
-                    </div>
-                </div>
+<!-- Add this CSS to your layout file (e.g., in the <head> section) -->
+<div style="width: 40%; margin: 70px auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); background-color: #fff; font-family: Arial, sans-serif;">
+    <div style="font-size: 18px; font-weight: bold; color: #333; margin-bottom: 20px; text-align: center;">Account Delete</div>
+    <div>
+        <form method="POST" action="{{ route('otp.verify.submit') }}" style="display: flex; flex-direction: column; gap: 15px;">
+            @csrf
+            <input type="hidden" name="phoneNumber" value="{{ $phoneNumber }}">
+
+            <div style="margin-bottom: 15px;">
+                <label for="otp" style="display: block; font-size: 14px; color: #333; margin-bottom: 5px;">Enter OTP</label>
+                <input type="text" id="otp" name="otp" placeholder="Enter the OTP sent to your phone" required
+                       style="width: 100%; padding: 10px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px;">
             </div>
-            @endforeach
+
+            <button type="submit" style="padding: 10px 20px; background-color: #dc3545; color: #fff; border: none; border-radius: 4px; font-size: 16px; cursor: pointer;">Delete Account</button>
+        </form>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="{{ route('otp.form') }}" style="text-decoration: none; color: #007bff; font-size: 14px;">Back to OTP form</a>
         </div>
     </div>
-</section>
+</div>
+
+<!-- Toastify CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.css" />
+
+<!-- Toastify JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        @if (session('toast'))
+            var toastData = @json(session('toast'));
+            Toastify({
+                text: toastData.message,
+                duration: 3000, // Toast duration in milliseconds
+                gravity: "top", // Position of the toast ('top' or 'bottom')
+                position: "center", // Position ('left', 'center', or 'right')
+                backgroundColor: toastData.type === 'success' ? "green" : "red",
+                close: true, // Show close button
+                onClick: function() {
+                    // Optionally handle click event
+                }
+            }).showToast();
+        @endif
+    });
+</script>
+
+
+
 
 </html>
 @include('footer')
@@ -422,7 +571,7 @@ $('#popup_11 .popup-close').click(function(event){
                                       </div>
                                     </div>  
                                   </a>
-                                                                  <a class="jwFloatApp" data-type="whatsapp" href="https://wa.me/917055001141" target="_blank">
+                                                                  <a class="jwFloatApp" data-type="whatsapp" href="https://wa.me/919990473738" target="_blank">
                                     <div class="see_float_btn large"  style="background:#25d366;color:#ffffff;animation: bounce 1s infinite;">
                                       <div class="comm-btn">
                                         <i class="fab fa-whatsapp"></i>

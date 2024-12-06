@@ -1,3 +1,138 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OTP Form</title>
+
+    <style>
+        /* Basic reset and layout */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .message {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .message p {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .success {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        }
+
+        /* Responsive design for smaller screens */
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Enter Your Phone Number</h2>
+        
+        <form action="{{ url('/send-otp') }}" method="POST">
+            @csrf 
+            
+           
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" required>
+            
+          
+            <button type="submit">Send OTP</button>
+        </form>
+
+       
+        <div class="message">
+            @if(session('success'))
+                <p class="success">{{ session('success') }}</p>
+            @endif
+
+            @if(session('error'))
+                <p class="error">{{ session('error') }}</p>
+            @endif
+        </div>
+    </div>
+
+</body>
+</html>
+ -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,43 +140,49 @@
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog | diagnomitra</title>
-<meta name="description" content="">
-<link rel="canonical" href="blog.html"/>
+<title> Diagnomitra Blog | Blood Test At Home Service Packages</title>
+<meta name="description" content="Stay updated with the latest healthcare insights on the Diagnomitra Blog. Discover information on blood test home services.">
+<link rel="canonical" href="https://www.diagnomitra.com/blog"/>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M7L29W0RRD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-M7L29W0RRD');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>
 
-  <script src="ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-  <script src="cdn.jsdelivr.net/npm/bootstrap%405.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="unpkg.com/aos%402.3.1/dist/aos.js"></script>
-  <script src="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
-  <script src="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
-  <script src="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery-bundle.min.css">
 
-<link href="cdn.jsdelivr.net/npm/bootstrap%405.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <link rel="preconnect" href="fonts.googleapis.com/index.html">
-  <link rel="preconnect" href="fonts.gstatic.com/index.html" crossorigin>
-  <link href="fonts.googleapis.com/css2df7e.css?family=Quicksand:wght@500;600;700&amp;display=swap" rel="stylesheet"> 
-  <link href="fonts.googleapis.com/css2db6f.css?family=Roboto+Flex&amp;display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <!-- AOS Css -->
-  <link href="unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" href="/static.joonsite.com/storage/21443/20284/assets/style1123.css?v=20240509094431">
   
-  
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" />
-  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery-bundle.min.css">
-  <link rel="stylesheet" href="static.joonsite.com/storage/21443/20284/assets/style1123.css?v=20240509094431">
-  
 
 
-<meta name="robots" content="noindex" />
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="Blood test at home, Blood test package, Blood test to check vitals, Blood test home collection near me, Blood test offers, Blood test near me at home, Blood test package near me">
 <meta name="generator" content="Joonweb.com Website Builder"/>
 <link rel="icon" type="image/ico" href="static.joonsite.com/storage/21443/media/2404251157347610.png" size="16x16"><link href="fonts.googleapis.com/cssbb8b.html?family=Quicksand%2C+sans-serif%7CTimes+New+Roman%7CNunito+Sans%7CRoboto+Flex%2C+sans-serif" rel="stylesheet">
 
 <style>
+    
     :root{
     --color1: #080a52;
     --color2: #ffe4f7;
@@ -266,16 +407,62 @@ body{overflow-x:hidden;}
   </style>
     
 </head>
-<body>
-@include('header')
-    <style>#blog_1 .theme-title .jwset{font-size:px;font-family:;font-weight:;line-height:;letter-spacing:}#blog_1 .theme-subtitle .jwset{font-size:px;font-family:;font-weight:;line-height:;letter-spacing:}</style><section class="blog-fleed padding-4 " id="blog_1"><div class="container"><div class="top-box text-center text-lg-center content-padding"><div class="fontStyle3 theme-title">Latest Blogs</div><div class="para fontStyle7 theme-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div></div><div class="row gy-4 feed-ul"><div class="feed-list col-12 col-sm-6 col-12 col-md-4"><div class="list-in text-start text-lg-start "><figure class="column-media-fit"><img src="static.joonsite.com/storage/21443/media/2401291750060190.html" alt="" onerror="this.src='../static.joonsite.com/storage/2077/media/wlcm.jpg'"></figure><ul class="feed-box d-flex flex-wrap justify-content-between py-3 fontStyle9"><li class="opacity1"><a href="blog/what-is-lorem-ipsum2.html"><i class="fa-solid fa-eye me-2"></i><span class="para">2</span></a></li><li class="opacity1"><a href="blog/what-is-lorem-ipsum2.html"><i class="fa-solid fa-user me-2"></i><span class="para">vandana jain</span></a></li><li class="opacity1"><a href="blog/what-is-lorem-ipsum2.html"><i class="fa-solid fa-calendar-days me-2"></i><span class="para">20-04-24</span></a></li></ul><div class="feed-list-cont"><div class="fontStyle4 list-title">Why is Lorem Ipsum?</div><div class="para list-para fontStyle7 mt-2 word_limit_3">Where does it come from?
+<style>
+    #blog_1 .theme-title .jwset {
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consec...</div><div class="list-btn btn fontStyle7 mt-2"><a href="blog/what-is-lorem-ipsum2.html" class="color1">Read More <i class="fa-solid fa-angles-right"></i></a></div></div></div></div></div></div></section>
+    #blog_1 .theme-subtitle .jwset {
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+        font-weight: normal;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+    .word_limit_3 {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+</style>
+@include('header')
+<div style="width: 40%; margin: 70px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background-color: #f9f9f9; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+    <h2 style="text-align: center; color: #333; font-family: Arial, sans-serif; margin-bottom: 20px;">Enter Your Phone Number</h2>
+    
+    <form action="{{ url('/send-otp') }}" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+        @csrf 
+        
+        <label for="phoneNumber" style="font-size: 16px; color: #555; font-family: Arial, sans-serif;">Phone Number:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" required 
+               style="padding: 10px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px; width: 100%;">
+        
+        <button type="submit" style="padding: 10px 20px; font-size: 16px; color: #fff; background-color: #007bff; border: none; border-radius: 4px; cursor: pointer;">Send OTP</button>
+    </form>
+
+    <div class="message" style="margin-top: 20px;">
+        @if(session('success'))
+            <p style="color: green; font-size: 14px; font-family: Arial, sans-serif;">{{ session('success') }}</p>
+        @endif
+
+        @if(session('error'))
+            <p style="color: red; font-size: 14px; font-family: Arial, sans-serif;">{{ session('error') }}</p>
+        @endif
+    </div>
+</div>
+
+
+</html>
 @include('footer')
-<style>#popup_3 .theme-title .jwset{font-size:px;font-family:;font-weight:;line-height:;letter-spacing:}#popup_3 .theme-subtitle .jwset{font-size:px;font-family:;font-weight:;line-height:;letter-spacing:}</style><style>.banner2-popup{position:fixed;top:0;left:0;z-index:9999;background:rgba(0,0,0,.7);width:100%;height:100vh;display:none}.banner2-popup-content{width:60%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:9999;padding:0;position:relative;border:2px solid var(--white);max-height:90vh;overflow-y:auto;overflow-x:hidden}.banner2-popup-content2{width:40%}.banner2-popup-content::-webkit-scrollbar{width:1px}.close-popup{position:absolute;top:0;right:0;z-index:9999}.close-popup a{padding:4px 8px;font-size:13px;color:var(--color1);background:var(--color5)}.banner2-list{margin-bottom:1rem}@media(max-width:768px){.banner2-popup-content{width:90%}}.banner2-form2 li{list-style:none;margin-bottom:1rem}.banner2-form2 label{margin-bottom:.5rem;font-size:13px}.banner2-form2 .jw_dynamic_form li{width:100%}.banner2-form2 form .dynamicField input{margin-bottom:0rem}.banner2-form2 input,.banner2-form2 select,.banner2-form2 textarea{width:100%;padding:.8rem;background:none;border:1px solid #bbb}.banner2-form2 input:focus,.banner2-form2 textarea:focus,.banner2-form2 select:focus{border-color:var(--color1);outline:0}.banner2-form2 input::placeholder{font-size:12px}.banner2-form2 input[type=submit]{background:var(--color1);color:var(--color5);width:100%;padding:1rem 3rem}.banner2-form2 input[type=submit]:hover{background:var(--color5);color:var(--color1);border:1px solid var(--color1)}.banner2-media img{width:100%;height:100%;object-fit:cover}</style><div class="banner2-popup" id="popup_3" data-popup="248962"><div class="banner2-popup-content background5 banner2-popup-content2"><div class="close-popup"><a href="#" class="popup-close" id="popup-close"><i class="fa-solid fa-x"></i></a></div><div class="row "><div class="col-sm-6 d-flex flex-column justify-content-center flex-grow-1"><div class="p-3"><div class="fontStyle3 mg-0 theme-title">Book a Test</div></div><div class="banner2-form2 p-4 fontStyle7"><form class="jw_dynamic_form" name="form_v_3"><signature style="display:none">W10=</signature><li class="dynamicField" data-input="text" data-mode="system"><label>Full Name</label><input type="text" data-name="firstName" date-mode="system" data-input="text" class="jw_dynamic_input " tooltip="" placeholder="Enter Name" maxlength="100" errmsg="" required></li><li class="dynamicField" data-input="email" data-mode="system"><label>Email</label><input type="email" data-name="email" date-mode="system" data-input="email" class="jw_dynamic_input " tooltip="" placeholder="Enter Your Email" maxlength="100" errmsg="" required></li><li class="dynamicField" data-input="tel" data-mode="system"><label>Mobile Number</label><input type="tel" data-name="mobileNumber" date-mode="system" data-input="tel" class="jw_dynamic_input " tooltip="" placeholder="Enter Number" maxlength="100" errmsg="" required></li><li class="dynamicField" data-input="text" data-mode="system"><label>Your location</label><input type="text" data-name="subject" date-mode="system" data-input="text" class="jw_dynamic_input " tooltip="" placeholder="Enter Location" maxlength="100" errmsg="" required></li><li class="dynamicField" data-input="singlefile" data-mode="normal"><label>Upload Prescription</label><input type="file" data-name="UploadPrescription_683" name="UploadPrescription_683" data-input="singlefile" date-mode="normal" class="jw_dynamic_input" name="jw_files[]" accept=".pdf,.doc,.docx,.txt,.xls,.ppt"/></li><li style="display:none;" class="dynamicField otpcode" data-input="otpcode" data-mode="system"><label>Enter OTP</label><input type="text" data-name="otpcode" date-mode="system" data-input="text" class="jw_dynamic_input " tooltip="" placeholder="Enter OTP" maxlength="6" minlength="3" errmsg=""><a href="javascript:void(0);" class="_back2form">Change Email</a></li><input type="hidden" class="_tx_" value="76657"><li><input type="submit" class="see-button" value= "Book Now"></li></form></div></div></div></div></div><script>try{
-$('#popup_3 .popup-close').click(function(event){
+    <style>#popup_11 .theme-title .jwset{font-size:px;font-family:;font-weight:;line-height:;letter-spacing:}#popup_11 .theme-subtitle .jwset{font-size:px;font-family:;font-weight:;line-height:;letter-spacing:}</style><style>.banner2-popup{position:fixed;top:0;left:0;z-index:9999;background:rgba(0,0,0,.7);width:100%;height:100vh;display:none}.banner2-popup-content{width:60%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:9999;padding:0;position:relative;border:2px solid var(--white);max-height:90vh;overflow-y:auto;overflow-x:hidden}.banner2-popup-content2{width:40%}.banner2-popup-content::-webkit-scrollbar{width:1px}.close-popup{position:absolute;top:0;right:0;z-index:9999}.close-popup a{padding:4px 8px;font-size:13px;color:var(--color1);background:var(--color5)}.banner2-list{margin-bottom:1rem}@media(max-width:768px){.banner2-popup-content{width:90%}}.banner2-form2 li{list-style:none;margin-bottom:1rem}.banner2-form2 label{margin-bottom:.5rem;font-size:13px}.banner2-form2 .jw_dynamic_form li{width:100%}.banner2-form2 form .dynamicField input{margin-bottom:0rem}.banner2-form2 input,.banner2-form2 select,.banner2-form2 textarea{width:100%;padding:.8rem;background:none;border:1px solid #bbb}.banner2-form2 input:focus,.banner2-form2 textarea:focus,.banner2-form2 select:focus{border-color:var(--color1);outline:0}.banner2-form2 input::placeholder{font-size:12px}.banner2-form2 input[type=submit]{background:var(--color1);color:var(--color5);width:100%;padding:1rem 3rem}.banner2-form2 input[type=submit]:hover{background:var(--color5);color:var(--color1);border:1px solid var(--color1)}.banner2-media img{width:100%;height:100%;object-fit:cover}</style><div class="banner2-popup" id="popup_11" data-popup="248962"><div class="banner2-popup-content background5 banner2-popup-content2"><div class="close-popup"><a href="#" class="popup-close" id="popup-close"><i class="fa-solid fa-x"></i></a></div><div class="row "><div class="col-sm-6 d-flex flex-column justify-content-center flex-grow-1"><div class="p-3"><div class="fontStyle3 mg-0 theme-title">Book a Test</div></div><div class="banner2-form2 p-4 fontStyle7"><form class="jw_dynamic_form" name="form_v_11"><signature style="display:none">W10=</signature><li class="dynamicField" data-input="text" data-mode="system"><label>Full Name</label><input type="text" data-name="firstName" date-mode="system" data-input="text" class="jw_dynamic_input " tooltip="" placeholder="Enter Name" maxlength="100" errmsg="" required></li><li class="dynamicField" data-input="email" data-mode="system"><label>Email</label><input type="email" data-name="email" date-mode="system" data-input="email" class="jw_dynamic_input " tooltip="" placeholder="Enter Your Email" maxlength="100" errmsg="" required></li><li class="dynamicField" data-input="tel" data-mode="system"><label>Mobile Number</label><input type="tel" data-name="mobileNumber" date-mode="system" data-input="tel" class="jw_dynamic_input " tooltip="" placeholder="Enter Number" maxlength="100" errmsg="" required></li><li class="dynamicField" data-input="text" data-mode="system"><label>Your location</label><input type="text" data-name="subject" date-mode="system" data-input="text" class="jw_dynamic_input " tooltip="" placeholder="Enter Location" maxlength="100" errmsg="" required></li><li class="dynamicField" data-input="singlefile" data-mode="normal"><label>Upload Prescription</label><input type="file" data-name="UploadPrescription_683" name="UploadPrescription_683" data-input="singlefile" date-mode="normal" class="jw_dynamic_input" name="jw_files[]" accept=".pdf,.doc,.docx,.txt,.xls,.ppt"/></li><li style="display:none;" class="dynamicField otpcode" data-input="otpcode" data-mode="system"><label>Enter OTP</label><input type="text" data-name="otpcode" date-mode="system" data-input="text" class="jw_dynamic_input " tooltip="" placeholder="Enter OTP" maxlength="6" minlength="3" errmsg=""><a href="javascript:void(0);" class="_back2form">Change Email</a></li><input type="hidden" class="_tx_" value="76657"><li><input type="submit" class="see-button" value= "Book Now"></li></form></div></div></div></div></div><script>try{
+$('#popup_11 .popup-close').click(function(event){
         event.preventDefault();
-        $('#popup_3').fadeOut();
+        $('#popup_11').fadeOut();
     });
   }
   catch(err) {
@@ -352,7 +539,7 @@ $('#popup_3 .popup-close').click(function(event){
                                       </div>
                                     </div>  
                                   </a>
-                                                                  <a class="jwFloatApp" data-type="whatsapp" href="https://wa.me/917055001141" target="_blank">
+                                                                  <a class="jwFloatApp" data-type="whatsapp" href="https://wa.me/919990473738" target="_blank">
                                     <div class="see_float_btn large"  style="background:#25d366;color:#ffffff;animation: bounce 1s infinite;">
                                       <div class="comm-btn">
                                         <i class="fab fa-whatsapp"></i>
@@ -622,4 +809,5 @@ $(function(){
 
 
 </body>
-</html><script>console.log('JWBolt - Page loaded in 0.28973793983459 seconds')</script>
+
+</html><script>console.log('JWBolt - Page loaded in 0.63345408439636 seconds')</script>

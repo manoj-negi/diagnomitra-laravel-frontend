@@ -1,2 +1,9 @@
 User-agent: *
-Disallow:
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /cgi-bin/
+User-agent: Googlebot
+Disallow: /no-google/
+Allow: /
+Sitemap: https://www.diagnomitra.com/sitemap.xml

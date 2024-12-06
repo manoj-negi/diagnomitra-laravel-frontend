@@ -4,7 +4,7 @@
     <title>Upload Form</title>
 </head>
 <body>
-    <form action="{{ route('booktest.store') }}" method="POST" enctype="multipart/form-data">
+    <form action="{{ route('booktest.testbooking') }}" method="POST" enctype="multipart/form-data">
         @csrf
         <input type="text" name="full_name" placeholder="Full Name" required>
     

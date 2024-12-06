@@ -6,7 +6,7 @@ use App\Models\booktest;
 use App\Http\Controllers\Controller;
 class BookTestController extends Controller
 {
-    public function store(Request $request)
+    public function testbooking(Request $request)
     {
         $request->validate([
             'full_name' => 'required|string|max:255',

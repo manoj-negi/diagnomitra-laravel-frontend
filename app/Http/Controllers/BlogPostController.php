@@ -10,13 +10,13 @@ class BlogPostController extends Controller
     {
         // Fetch only published blog posts for the user panel
         $blogPosts = BlogPost::where('is_published', 1)->orderBy('created_at', 'desc')->get();
-        return view('user.blogposts.index', compact('blogPosts'));
+        return view('user.blog.index', compact('blogPosts'));
     }
 
   public function show($slug)
 {
     $blogPost = BlogPost::where('slug', $slug)->firstOrFail();
-    return view('user.blogposts.show', compact('blogPost'));
+    return view('user.blog.show', compact('blogPost'));
 }
 
     

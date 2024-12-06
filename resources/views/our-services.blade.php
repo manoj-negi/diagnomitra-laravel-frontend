@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact Diagnomitra | Blood Test Collection At Home Services</title>
-<meta name="description" content="Get in touch with Diagnomitra for blood test services online bookings, and home collections. Get the Best deals">
-<link rel="canonical" href="https://www.diagnomitra.com/contact-us"/>
-<!-- Google tag (gtag.js) -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms & Condition | diagnomitra</title>
+  <meta name="description" content="">
+  <link rel="canonical" href="terms-of-service.html" />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <script src="ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="cdn.jsdelivr.net/npm/bootstrap%405.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="unpkg.com/aos%402.3.1/dist/aos.js"></script>
+  <script src="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+  <script src="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+  <script src="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>
+        <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7L29W0RRD"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -16,34 +26,35 @@
   gtag('js', new Date());
   gtag('config', 'G-M7L29W0RRD');
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery-bundle.min.css">
-    <link rel="stylesheet" href="/static.joonsite.com/storage/21443/20284/assets/style1123.css?v=20240509094431">
+  <link href="cdn.jsdelivr.net/npm/bootstrap%405.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="fonts.googleapis.com/index.html">
+  <link rel="preconnect" href="fonts.gstatic.com/index.html" crossorigin>
+  <link href="fonts.googleapis.com/css2df7e.css?family=Quicksand:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link href="fonts.googleapis.com/css2db6f.css?family=Roboto+Flex&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- AOS Css -->
+  <link href="unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+
+
+  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" />
+  <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery-bundle.min.css">
+  <link rel="stylesheet" href="static.joonsite.com/storage/21443/20284/assets/style1123.css?v=20240509094431">
+
+
 
   <meta name="robots" content="index, follow">
-  <meta name="keywords" content="Blood test at home, Blood test package, Blood test sample collection, Blood test discount, Blood test online near me, Blood test package price, Blood test home service">
+  <meta name="keywords" content="your, static, keywords, here">
     <meta name="generator" content="Joonweb.com Website Builder" />
-  <link rel="icon" type="image/ico" href="static.joonsite.com/storage/21443/media/2404251157347610.png" size="16x16" />
+  <link rel="icon" type="image/ico" href="static.joonsite.com/storage/21443/media/2404251157347610.png" size="16x16">
   <link
     href="fonts.googleapis.com/cssbb8b.html?family=Quicksand%2C+sans-serif%7CTimes+New+Roman%7CNunito+Sans%7CRoboto+Flex%2C+sans-serif"
-    rel="stylesheet" />
+    rel="stylesheet">
 
   <style>
     :root {
@@ -54,7 +65,7 @@
       --color5: #fff;
       --color6: #070707;
 
-      --border-color: #cdc2ae;
+      --border-color: #CDC2AE;
       --light-border: #171717;
       --bx-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
@@ -153,62 +164,62 @@
       color: var(--color5);
     }
 
-    .background1 input[type="submit"] {
+    .background1 input[type=submit] {
       background: var(--color5);
       color: var(--color6);
     }
 
-    .background2 input[type="submit"] {
+    .background2 input[type=submit] {
       background: var(--color6);
       color: var(--color5);
     }
 
-    .background3 input[type="submit"] {
+    .background3 input[type=submit] {
       background: var(--color5);
       color: var(--color6);
     }
 
-    .background4 input[type="submit"] {
+    .background4 input[type=submit] {
       background: var(--color6);
       color: var(--color5);
     }
 
-    .background5 input[type="submit"] {
+    .background5 input[type=submit] {
       background: var(--color1);
       color: var(--color5);
     }
 
-    .background6 input[type="submit"] {
+    .background6 input[type=submit] {
       background: var(--color1);
       color: var(--color5);
     }
 
-    .background1 input[type="submit"]:hover {
+    .background1 input[type=submit]:hover {
       background: var(--color6);
       color: var(--color5);
     }
 
-    .background2 input[type="submit"]:hover {
+    .background2 input[type=submit]:hover {
       background: var(--color5);
       color: var(--color6);
     }
 
-    .background3 input[type="submit"]:hover {
+    .background3 input[type=submit]:hover {
       background: var(--color6);
       color: var(--color5);
     }
 
-    .background4 input[type="submit"]:hover {
+    .background4 input[type=submit]:hover {
       background: var(--color5);
       color: var(--color6);
     }
 
-    .background5 input[type="submit"]:hover {
+    .background5 input[type=submit]:hover {
       background: var(--color5);
       color: var(--color1);
     }
 
-    .background6 input[type="submit"]:hover {
+    .background6 input[type=submit]:hover {
       background: var(--color5);
       color: var(--color1);
     }
@@ -315,6 +326,7 @@
       }
     }
 
+
     a {
       text-decoration: none;
       color: unset;
@@ -327,6 +339,7 @@
     .theme-shadow-lg {
       box-shadow: -8px 16px 25px #bbb;
     }
+
 
     /* About Variants */
     .about-content {
@@ -346,7 +359,7 @@
       aspect-ratio: 1/1;
     }
 
-    @media (max-width: 991px) {
+    @media(max-width:991px) {
       .about-content {
         width: 100%;
         margin: 0 auto;
@@ -438,7 +451,7 @@
     .slider_22 .slick-prev::before {
       font-family: FontAwesome;
       font-size: normal;
-      content: "\f104";
+      content: '\f104';
       font-size: 1.2rem;
       transition: all 0.4s linear;
       color: var(--color6);
@@ -450,7 +463,7 @@
     .slider_22 .slick-next::before {
       font-family: FontAwesome;
       font-size: normal;
-      content: "\f105";
+      content: '\f105';
       font-size: 1.2rem;
       transition: all 0.4s linear;
       color: var(--color6);
@@ -512,7 +525,7 @@
       color: unset;
     }
 
-    @media (max-width: 991px) {
+    @media(max-width:991px) {
       .slider_22 .slick-next {
         top: 50%;
         right: 0%;
@@ -544,7 +557,7 @@
       }
     }
 
-    @media (max-width: 576px) {
+    @media(max-width:576px) {
       .slider_22 .slick-next {
         top: 50%;
         right: 0%;
@@ -649,7 +662,7 @@
       background: transparent;
     }
 
-    .form_form_style [type="submit"] {
+    .form_form_style [type=submit] {
       padding: 0.7rem 3rem;
       margin-top: 1rem;
       transition: 0.4s linear;
@@ -667,20 +680,20 @@
       margin-bottom: 0.5rem;
     }
 
-    @media (max-width: 991px) {
+    @media (max-width:991px) {
       .form_1_img .form_1_div {
         padding: 2rem 2rem;
         width: 70%;
       }
     }
 
-    @media (max-width: 576px) {
+    @media (max-width:576px) {
       .form_1_img .form_1_div {
         width: 90%;
         padding: 2rem 2rem;
       }
 
-      .form_form_style [type="submit"] {
+      .form_form_style [type=submit] {
         width: 50%;
       }
     }
@@ -715,7 +728,7 @@
       padding: 5rem 0;
     }
 
-    @media (max-width: 576px) {
+    @media (max-width:576px) {
       .welcome_1_text {
         padding: 1rem 3rem;
         width: 90%;
@@ -818,6 +831,7 @@
 
     /* content end */
 
+
     /* ------ word_limit_2 ----------- */
     .word_limit_2 {
       text-overflow: ellipsis;
@@ -838,6 +852,7 @@
     }
 
     /* ------ word_limit_2 end ----------- */
+
 
     .see-list-item {
       cursor: pointer;
@@ -980,385 +995,229 @@
     }
 
     #jw-popup-close:hover {
-      color: #de0023;
+      color: #DE0023;
     }
 
     [data-popup] {
       display: none;
     }
   </style>
+
 </head>
 
 <body>
-  @include('header')
-    <style>
-      #contact_1 {
-        padding-top: px;
-        padding-bottom: px;
-      }
 
-      @media screen and (min-width: 750px) {
-        #contact_1 {
-          padding-top: 48px;
-          padding-bottom: 48px;
+ @include('header')
+<style>
+  .mains {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+                background-color: #ecfeff; 
+
         }
-      }
 
-      #contact_1 .content-padding {
-        padding-top: px;
-        padding-bottom: px;
-      }
-
-      @media screen and (min-width: 750px) {
-        #contact_1 .content-padding {
-          padding-top: 24px;
-          padding-bottom: 24px;
+        section {
+            width: 100%;
+            display: grid;
+            place-items: center;
+            padding: 2em 1em;
         }
-      }
 
-      #contact_1 .theme-title .jwset {
-        font-size: px;
-        font-family: ;
-        font-weight: ;
-        line-height: ;
-        letter-spacing: ;
-      }
+        .container {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+        }
 
-      #contact_1 .theme-subtitle .jwset {
-        font-size: px;
-        font-family: ;
-        font-weight: ;
-        line-height: ;
-        letter-spacing: ;
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -0.5em;      
+            }
 
-      }
-    </style>
-    <style>
-      .contact-us .contact-right li>label {
-        margin-bottom: 0.5rem;
-      }
+        .column {
+            flex: 1 1 calc(33.33% - 2em);
+            margin: 1em;
+            box-sizing: border-box;
+        }
 
-      .social-media a {
-        width: 40px;
-        height: 40px;
-        border: 1px solid;
-        border-radius: 50%;
-      }
+        .card {
+            width: 100%;
+            padding: 2em 1.5em;
+            background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+            background-size: 100% 200%;
+            background-position: 0 2.5%;
+            border-radius: 5px;
+            box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+            cursor: pointer;
+            transition: 0.5s;
+            text-align: center;
+        }
 
-      .contact-us .contact-right form li .jw-radio-group {
-        margin-top: 0.5rem;
-        display: flex;
-        gap: 0.7rem;
-      }
+        h3 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #1f194c;
+            margin: 1em 0;
+            font-family: "Jost", sans-serif;
+        }
 
-      .contact-us .contact-right form li input[type="radio"] {
-        width: auto;
-      }
-
-      .contact-us .contact-right form li .jw-checkbox-group {
-        margin-top: 0.5rem;
-        display: flex;
-        gap: 0.7rem;
-      }
-
-      .contact-us .contact-right form li input[type="checkbox"] {
-        width: auto;
-      }
-
-      .contact-us .contact-right form li .rating-stars .jw_stars {
-        text-align: start;
-      }
-
-      .contact-us .contact-right form li .rating-stars ul>li.star>i.fa {
-        font-size: 1.3rem !important;
-      }
-
-      .contact-us .contact-right form li input[type="file"]::file-selector-button {
-        border-radius: 4px;
-        padding: 0 16px;
-        height: 40px;
-        cursor: pointer;
-        background-color: white;
-        border: 1px solid rgba(0, 0, 0, 0.16);
-        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
-        margin-right: 16px;
-        transition: background-color 200ms;
-      }
-
-      .contact-us .contact-right form li input[type="file"]::file-selector-button:hover {
-        background-color: #f3f4f6;
-      }
-
-      .contact-us .contact-right form li input[type="file"]::file-selector-button:active {
-        background-color: #e5e7eb;
-      }
-    </style>
+        p {
+            color: #575a7b;
+            font-size: 20px;
+            line-height: 1.6;
+            letter-spacing: 0.03em;
+        }
 
 
-<section class="section-bg" style="background-image: url();" data-scroll-index="7">
-  <div class="custom-overlay">
-    <div class="custom-container">
-      <div class="custom-row">
-        <div class="custom-col custom-col-left">
-          <div class="custom-contact-info">
-            <h1 class="custom-contact-title">Need help to book a test?</h1>
-            <p>Get in touch with Diagnomitra for blood test services, online bookings, and home collections. Get the best deals.</p>
-            <ul class="custom-contact-details">
-              <li class="p-2">
-                <i class="fas fa-mobile-alt"></i>
-                <h4>9990473738</h4>
-              </li>
-              <li class="p-2">
-                <i class="fas fa-at"></i>
-                <h4>help@diagnomitra.com</h4>
-              </li>
-              <li class="p-2">
-                <i class="fas fa-map-marker-alt"></i>
-                <h4>17, 3rd floor, A-Square Mall, Sec 73, Noida - 201301</h4>
-              </li>
-            </ul>
-          </div>
-        </div>
+        .card:hover {
+            background-position: 0 100%;
+        }
 
-        <div class="custom-col custom-col-right">
-          <div class="custom-contact-form">
-            <form id="contact-form"  action="http://127.0.0.1:8000/testbooking" method="POST" enctype="multipart/form-data">
-              @csrf
-              <div class="custom-row">
-                <div class="custom-col">
-                  <div class="custom-form-group">
-                    <input type="text" name="full_name" class="custom-form-control" id="first-name" placeholder="Enter Your Name *" required>
+        .card:hover {
+            background-color: #ffffff;
+            color: #bee4ea;
+        }
+
+        .card:hover h3 {
+            color: #ffffff;
+        }
+
+        .card:hover p {
+            color: #f0f0f0;
+        }
+
+        @media screen and (max-width: 768px) {
+            .column {
+                flex: 1 1 calc(50% - 2em);
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            .column {
+                flex: 1 1 100%;
+            }
+        }
+   .heading12 {
+    width: 72%;
+              background-color: #EB2188;
+              color: #fff;
+              padding: 15px;
+              border-radius: 8px 8px 0 0;
+              text-align: center;
+              font-size: 1.5rem;
+              font-weight: bold;
+            }
+  
+      </style>
+  </head>
+  <body>
+    <div class="mains">
+      <section class="services">
+          <div class="container">
+          <div class="heading12 mb-4">Our Service</div>
+
+              <div class="row">
+                  <div class="column">
+                      <div class="card">
+                          <div class="">
+                          </div>
+                          <h3>Affordable Home Blood Tests:</h3>
+                          <p>Get your blood tests done at home without the hassle of visiting a lab.</p>
+                      </div>
                   </div>
-                </div>
-                <div class="custom-col">
-                  <div class="custom-form-group">
-                    <input type="text" name="mobile_number" class="custom-form-control" id="number" placeholder="Enter Your Number *" required>
+                  <div class="column">
+                      <div class="card">
+                          <div class="">
+                          </div>
+                          <h3>Best Health Checkup Packages:</h3>
+                          <p>Choose from a range of comprehensive health checkup packages designed for your needs.</p>
+                      </div>
                   </div>
-                </div>
-                <div class="custom-col">
-                  <div class="custom-form-group">
-                    <input type="text" name="location" class="custom-form-control" id="location" placeholder="Enter Your Location *" required>
+                  <div class="column">
+                      <div class="card">
+                          <div class="">
+                          </div>
+                          <h3>Book Blood Tests Online India:</h3>
+                          <p>Easily book your blood tests online and get your samples collected at home.</p>
+                         </div>
                   </div>
-                </div>
-                <div class="custom-col">
-                  <div class="custom-form-group">
-                    <input type="email" name="email" class="custom-form-control" id="email" placeholder="Enter Your Email *" required>
-                  </div>
-                </div>
-                <div class="custom-col">
-                  <div class="custom-form-group">
-                    <input type="file" name="file" class="custom-form-control" id="file-upload">
-                  </div>
-                </div>
-                <div class="custom-col">
-                  <button class="custom-btn-big" type="submit">
-                    Send Us <i class="fas fa-arrow-right"></i>
-                  </button>
-                  @if(session('success'))
-                                <div class="alert alert-success" >
-                                  <!-- <p>thank you for contacting with us</p> -->
-                                    {{ session('success') }}
-                                </div>
-                            @endif
-                </div>
               </div>
-            </form>
+              <div class="row">
+                  <div class="column">
+                      <div class="card">
+                          <div class="">
+                          </div>
+                          <h3>Home Sample Collection Services:</h3>
+                <p>Our professional phlebotomists ensure a safe and convenient home sample collection experience.</p>
+            </div>
+                  </div>
+                  <div class="column">
+                      <div class="card">
+                          <div class="">
+                          </div>
+                          <h3>Reliable Diagnostic Tests Near Me:</h3>
+                          <p>Find and book reliable diagnostic tests from certified labs near you.</p>
+                        </div>
+                  </div>
+                  <div class="column">
+                      <div class="card">
+                          <div class="">
+                          </div>
+                          <h3>Comprehensive Health Checkup for Families:</h3>
+                          <p>Ensure the well-being of your entire family with our extensive health checkup packages.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="column">
+                      <div class="card">
+                          <div class="">
+                          </div>
+                          <h3>Online Lab Test Booking:</h3>
+                          <p>Simplify your healthcare needs with our easy-to-use online lab test booking platform.</p>
+                        </div>
+                  </div>
+                  <div class="column">
+                      <div class="card">
+                          <div class="">
+                          </div>
+                          <h3>NABL Certified Labs for Blood Tests:</h3>
+                <p>Partnering with NABL certified labs to provide accurate and trustworthy test results.</p>
+            </div>
+                  </div>
+                  <div class="column">
+                      <div class="card">
+                          <div class="">
+                          </div>
+                          <h3>Accurate Home Blood Test Reports:</h3>
+                          <p>Receive accurate and detailed blood test reports from the comfort of your home.</p>
+                       </div>
+                  </div>
+              </div>
           </div>
-        </div>
-      </div>
-    </div>
+      </section>
   </div>
-</section>
-
-    
-    <style>
-      .custom-overlay {
-        background-image: linear-gradient(to right, rgba(90, 100, 232, 0.9), rgba(223, 80, 173, 0.9));
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        position: relative;
-        padding: 50px 0;
-      }
-    
-      .section-bg {
-        background-size: cover;
-        position: relative;
-        background-position: left;
-        z-index: 0;
-        padding: 0;
-        min-height: auto;
-        overflow: hidden;
-      }
-    
-      .custom-container {
-        max-width: 1140px;
-        margin: 0 auto;
-        padding: 0 15px;
-      }
-    
-      .custom-row {
-        display: flex;
-        flex-wrap: wrap;
-      }
-    
-      .custom-col {
-        width: 100%;
-        padding: 10px;
-      }
-    
-      .custom-col-left {
-        flex: 1;
-        display: flex;
-        align-items: center;
-      }
-    
-      /* .custom-col-right {
-        flex: 1;
-        display: flex;
-        align-items: center;
-      }
-     */
-     .custom-col-right {
-    margin-right: 64px;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    border: var(--bs-gray-100) 2px solid;
-}
-      .custom-contact-info {
-        max-width: 500px;
-      }
-    
-      .custom-contact-title {
-        font-size: 35px;
-        font-weight: 600;
-        color: #fff;
-        margin-bottom: 30px;
-      }
-    
-      .custom-contact-info p {
-        color: #ECECEC;
-        padding: 20px 0px;
-      }
-    
-      .custom-contact-details {
-        list-style: none;
-        padding: 20px 0px;
-      }
-    
-      .custom-contact-details li {
-        display: flex;
-        align-items: center;
-        margin-bottom: 15px;
-      }
-    
-      .custom-contact-details i {
-        font-size: 30px;
-        color: #FE846F;
-        margin-right: 10px;
-      }
-    
-      .custom-contact-details h4 {
-        color: #fff;
-        font-size: 18px;
-        margin: 0;
-      }
-    
-      .custom-contact-form {
-        position: relative;
-        padding: 45px 60px;
-        background: #FFFFFF;
-        box-shadow: 10px 40px 40px rgba(0, 0, 0, 0.2);
-        border-radius: 6px;
-        max-width: 500px;
-        width: 100%;
-      }
-    
-      .custom-form-group {
-        margin-bottom: 30px;
-      }
-    
-      .custom-form-control {
-        border: 0;
-        background: transparent;
-        display: block;
-        width: 100%;
-        min-height: 50px;
-        padding: 11px 0;
-        font-size: 16px;
-        font-weight: 600;
-        background-color: transparent;
-        border: 2px solid transparent;
-        border-bottom-color: rgba(0, 0, 0, 0.1);
-        transition: .3s ease-in-out;
-      }
-    
-      .custom-form-control:hover,
-      .custom-form-control:focus {
-        outline: none;
-        box-shadow: none;
-        border-bottom-color: rgb(254, 132, 111);
-      }
-    
-      .custom-form-control::placeholder {
-        color: #222;
-      }
-    
-      .custom-btn-big {
-        color: #fff;
-        background: #eb2188;
-        border: 2px solid #242424;
-        padding: 15px 30px;
-        border-radius: 15px;
-        font-size: 16px;
-        font-weight: 600;
-        text-transform: uppercase;
-        cursor: pointer;
-        transition: .2s;
-        box-shadow: 2px 5px 10px 0px rgba(45, 45, 45, 0.19);
-        display: inline-flex;
-        align-items: center;
-      }
-    
-      .custom-btn-big i {
-        margin-left: 10px;
-      }
-    
-      @media only screen and (max-width: 767px) {
-        .custom-contact-form {
-          padding: 30px;
-        }
-    
-        .custom-row {
-          flex-direction: column;
-        }
-      }
-      .footer_style ul {
-    list-style: none;
-    padding: 0;
-    /* display: flex; */
-    flex-direction: column;
-    margin-left: 104px;
-    align-items: center;
-}
 
 
-    </style>
-    
 
-     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
-@include('footer')
 
+
+
+
+
+
+    @include('footer')
     <style>
       #popup_3 .theme-title .jwset {
         font-size: px;
         font-family: ;
         font-weight: ;
         line-height: ;
-        letter-spacing: ;
+        letter-spacing:
       }
 
       #popup_3 .theme-subtitle .jwset {
@@ -1366,7 +1225,7 @@
         font-family: ;
         font-weight: ;
         line-height: ;
-        letter-spacing: ;
+        letter-spacing:
       }
     </style>
     <style>
@@ -1375,10 +1234,10 @@
         top: 0;
         left: 0;
         z-index: 9999;
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(0, 0, 0, .7);
         width: 100%;
         height: 100vh;
-        display: none;
+        display: none
       }
 
       .banner2-popup-content {
@@ -1393,167 +1252,155 @@
         border: 2px solid var(--white);
         max-height: 90vh;
         overflow-y: auto;
-        overflow-x: hidden;
+        overflow-x: hidden
       }
 
       .banner2-popup-content2 {
-        width: 40%;
+        width: 40%
       }
 
       .banner2-popup-content::-webkit-scrollbar {
-        width: 1px;
+        width: 1px
       }
 
       .close-popup {
         position: absolute;
         top: 0;
         right: 0;
-        z-index: 9999;
+        z-index: 9999
       }
 
       .close-popup a {
         padding: 4px 8px;
         font-size: 13px;
         color: var(--color1);
-        background: var(--color5);
+        background: var(--color5)
       }
 
       .banner2-list {
-        margin-bottom: 1rem;
+        margin-bottom: 1rem
       }
 
-      @media (max-width: 768px) {
+      @media(max-width:768px) {
         .banner2-popup-content {
-          width: 90%;
+          width: 90%
         }
       }
 
       .banner2-form2 li {
         list-style: none;
-        margin-bottom: 1rem;
+        margin-bottom: 1rem
       }
 
       .banner2-form2 label {
-        margin-bottom: 0.5rem;
-        font-size: 13px;
+        margin-bottom: .5rem;
+        font-size: 13px
       }
 
       .banner2-form2 .jw_dynamic_form li {
-        width: 100%;
+        width: 100%
       }
 
       .banner2-form2 form .dynamicField input {
-        margin-bottom: 0rem;
+        margin-bottom: 0rem
       }
 
       .banner2-form2 input,
       .banner2-form2 select,
       .banner2-form2 textarea {
         width: 100%;
-        padding: 0.8rem;
+        padding: .8rem;
         background: none;
-        border: 1px solid #bbb;
+        border: 1px solid #bbb
       }
 
       .banner2-form2 input:focus,
       .banner2-form2 textarea:focus,
       .banner2-form2 select:focus {
         border-color: var(--color1);
-        outline: 0;
+        outline: 0
       }
 
       .banner2-form2 input::placeholder {
-        font-size: 12px;
+        font-size: 12px
       }
 
-      .banner2-form2 input[type="submit"] {
+      .banner2-form2 input[type=submit] {
         background: var(--color1);
         color: var(--color5);
         width: 100%;
-        padding: 1rem 3rem;
+        padding: 1rem 3rem
       }
 
-      .banner2-form2 input[type="submit"]:hover {
+      .banner2-form2 input[type=submit]:hover {
         background: var(--color5);
         color: var(--color1);
-        border: 1px solid var(--color1);
+        border: 1px solid var(--color1)
       }
 
       .banner2-media img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: cover
       }
     </style>
     <div class="banner2-popup" id="popup_3" data-popup="248962">
       <div class="banner2-popup-content background5 banner2-popup-content2">
-        <div class="close-popup">
-          <a href="#" class="popup-close" id="popup-close"><i class="fa-solid fa-x"></i></a>
+        <div class="close-popup"><a href="#" class="popup-close" id="popup-close"><i class="fa-solid fa-x"></i></a>
         </div>
-        <div class="row">
+        <div class="row ">
           <div class="col-sm-6 d-flex flex-column justify-content-center flex-grow-1">
             <div class="p-3">
               <div class="fontStyle3 mg-0 theme-title">Book a Test</div>
             </div>
             <div class="banner2-form2 p-4 fontStyle7">
               <form class="jw_dynamic_form" name="form_v_3">
-                <signature style="display: none">W10=</signature>
-                <li class="dynamicField" data-input="text" data-mode="system">
-                  <label>Full Name</label><input type="text" data-name="firstName" date-mode="system" data-input="text"
-                    class="jw_dynamic_input" tooltip="" placeholder="Enter Name" maxlength="100" errmsg="" required />
-                </li>
-                <li class="dynamicField" data-input="email" data-mode="system">
-                  <label>Email</label><input type="email" data-name="email" date-mode="system" data-input="email"
-                    class="jw_dynamic_input" tooltip="" placeholder="Enter Your Email" maxlength="100" errmsg=""
-                    required />
-                </li>
-                <li class="dynamicField" data-input="tel" data-mode="system">
-                  <label>Mobile Number</label><input type="tel" data-name="mobileNumber" date-mode="system"
-                    data-input="tel" class="jw_dynamic_input" tooltip="" placeholder="Enter Number" maxlength="100"
-                    errmsg="" required />
-                </li>
-                <li class="dynamicField" data-input="text" data-mode="system">
-                  <label>Your location</label><input type="text" data-name="subject" date-mode="system"
-                    data-input="text" class="jw_dynamic_input" tooltip="" placeholder="Enter Location" maxlength="100"
-                    errmsg="" required />
-                </li>
-                <li class="dynamicField" data-input="singlefile" data-mode="normal">
-                  <label>Upload Prescription</label><input type="file" data-name="UploadPrescription_683"
+                <signature style="display:none">W10=</signature>
+                <li class="dynamicField" data-input="text" data-mode="system"><label>Full Name</label><input type="text"
+                    data-name="firstName" date-mode="system" data-input="text" class="jw_dynamic_input " tooltip=""
+                    placeholder="Enter Name" maxlength="100" errmsg="" required></li>
+                <li class="dynamicField" data-input="email" data-mode="system"><label>Email</label><input type="email"
+                    data-name="email" date-mode="system" data-input="email" class="jw_dynamic_input " tooltip=""
+                    placeholder="Enter Your Email" maxlength="100" errmsg="" required></li>
+                <li class="dynamicField" data-input="tel" data-mode="system"><label>Mobile Number</label><input
+                    type="tel" data-name="mobileNumber" date-mode="system" data-input="tel" class="jw_dynamic_input "
+                    tooltip="" placeholder="Enter Number" maxlength="100" errmsg="" required></li>
+                <li class="dynamicField" data-input="text" data-mode="system"><label>Your location</label><input
+                    type="text" data-name="subject" date-mode="system" data-input="text" class="jw_dynamic_input "
+                    tooltip="" placeholder="Enter Location" maxlength="100" errmsg="" required></li>
+                <li class="dynamicField" data-input="singlefile" data-mode="normal"><label>Upload
+                    Prescription</label><input type="file" data-name="UploadPrescription_683"
                     name="UploadPrescription_683" data-input="singlefile" date-mode="normal" class="jw_dynamic_input"
-                    name="jw_files[]" accept=".pdf,.doc,.docx,.txt,.xls,.ppt" />
-                </li>
-                <li style="display: none" class="dynamicField otpcode" data-input="otpcode" data-mode="system">
+                    name="jw_files[]" accept=".pdf,.doc,.docx,.txt,.xls,.ppt" /></li>
+                <li style="display:none;" class="dynamicField otpcode" data-input="otpcode" data-mode="system">
                   <label>Enter OTP</label><input type="text" data-name="otpcode" date-mode="system" data-input="text"
-                    class="jw_dynamic_input" tooltip="" placeholder="Enter OTP" maxlength="6" minlength="3"
-                    errmsg="" /><a href="javascript:void(0);" class="_back2form">Change Email</a>
-                </li>
-                <input type="hidden" class="_tx_" value="76657" />
-                <li>
-                  <input type="submit" class="see-button" value="Book Now" />
-                </li>
+                    class="jw_dynamic_input " tooltip="" placeholder="Enter OTP" maxlength="6" minlength="3"
+                    errmsg=""><a href="javascript:void(0);" class="_back2form">Change Email</a></li><input type="hidden"
+                  class="_tx_" value="76657">
+                <li><input type="submit" class="see-button" value="Book Now"></li>
               </form>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script>
-      try {
-        $("#popup_3 .popup-close").click(function (event) {
+    <script>try {
+        $('#popup_3 .popup-close').click(function (event) {
           event.preventDefault();
-          $("#popup_3").fadeOut();
+          $('#popup_3').fadeOut();
         });
-      } catch (err) {
-        console.log(err.message);
       }
-    </script>
-    <popups class="see-dp-none"></popups>
-    <div id="jw-popup-overlay"></div>
+      catch (err) {
+        console.log(err.message);
+      }</script>
+    <popups class='see-dp-none'></popups>
+    <div id='jw-popup-overlay'></div>
     <div id="jw-popup-container">
       <div id="jw-popup-close" class="fade">&#10006;</div>
       <div id="jw-popup-iframe-container"></div>
     </div>
   </div>
+
 
   <style>
     .floating-left {
@@ -1616,29 +1463,27 @@
       50%,
       80%,
       100% {
-        transform: translateY(0);
+        transform: translateY(0)
       }
 
       40% {
-        transform: translateY(-15px);
+        transform: translateY(-15px)
       }
 
       60% {
-        transform: translateY(-7px);
+        transform: translateY(-7px)
       }
     }
   </style>
   <script>
     function scrollToTop() {
-      const duration = 500; 
+      // Define the duration of the scroll animation (in milliseconds)
+      const duration = 500; // Adjust this value to control the scroll speed
       const start = window.scrollY;
       const startTime = performance.now();
       function step(timestamp) {
         const currentTime = timestamp - startTime;
-        window.scrollTo(
-          0,
-          easeInOutCubic(currentTime, start, -start, duration)
-        );
+        window.scrollTo(0, easeInOutCubic(currentTime, start, -start, duration));
         if (currentTime < duration) {
           window.requestAnimationFrame(step);
         }
@@ -1663,40 +1508,32 @@
     }
 
     function handleScroll() {
-      var jwFloatAppElements = document.querySelectorAll(
-        '.jwFloatApp[data-type="scrollTop"]'
-      );
+      var jwFloatAppElements = document.querySelectorAll('.jwFloatApp[data-type="scrollTop"]');
       if (window.scrollY < 180) {
         jwFloatAppElements.forEach(function (element) {
-          fadeOut(element); 
+          fadeOut(element); // Apply fadeOut effect
         });
       } else {
         jwFloatAppElements.forEach(function (element) {
-          fadeIn(element); 
+          fadeIn(element); // Apply fadeIn effect
         });
       }
     }
     window.addEventListener("scroll", handleScroll);
     document.addEventListener("DOMContentLoaded", handleScroll);
+
+
   </script>
   <div class="floating-right">
     <a class="jwFloatApp" data-type="scrollTop" href="javascript:scrollToTop();" target="_self">
-      <div class="see_float_btn medium" style="
-            background: #7e75ff;
-            color: #ffffff;
-            animation: bounce 1s infinite;
-          ">
+      <div class="see_float_btn medium" style="background:#7e75ff;color:#ffffff;animation: bounce 1s infinite;">
         <div class="comm-btn">
           <i class="fas fa-arrow-up"></i>
         </div>
       </div>
     </a>
     <a class="jwFloatApp" data-type="whatsapp" href="https://api.whatsapp.com/send/?phone=919990473738&text&type=phone_number&app_absent=0" target="_blank">
-      <div class="see_float_btn large" style="
-            background: #25d366;
-            color: #ffffff;
-            animation: bounce 1s infinite;
-          ">
+      <div class="see_float_btn large" style="background:#25d366;color:#ffffff;animation: bounce 1s infinite;">
         <div class="comm-btn">
           <i class="fab fa-whatsapp"></i>
         </div>
@@ -1705,59 +1542,43 @@
   </div>
   <script src="ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" defer></script>
   <script>
-    if ($("form.jw_dynamic_form").length > 0) {
-      $(document).on("input", ".jw_dynamic_input[data-name]", function () {
-        let xfs = $(this).closest("form.jw_dynamic_form");
-        let xsc_r = xfs.children("signature").text();
-        if (xsc_r != "") {
+
+    if ($('form.jw_dynamic_form').length > 0) {
+      $(document).on('input', '.jw_dynamic_input[data-name]', function () {
+        let xfs = $(this).closest('form.jw_dynamic_form');
+        let xsc_r = xfs.children('signature').text();
+        if (xsc_r != '') {
           userRules = atob(xsc_r);
           userRules = $.parseJSON(userRules);
           //console.log(userRules);
           if (userRules.conditions) {
             userRules.conditions.forEach(function (rule) {
-              let selcInput = xfs
-                .find(`.jw_dynamic_input[data-name="${rule.if}"]`)
-                .attr("data-input");
-              let selectedValue = xfs
-                .find(`.jw_dynamic_input[data-name="${rule.if}"]`)
-                .val();
-              if (
-                selcInput == "radio" ||
-                selcInput == "multicheckbox" ||
-                selcInput == "checkbox"
-              ) {
-                selectedValue = xfs
-                  .find(`.jw_dynamic_input[data-name="${rule.if}"]:checked`)
-                  .val();
+              let selcInput = xfs.find(`.jw_dynamic_input[data-name="${rule.if}"]`).attr('data-input');
+              let selectedValue = xfs.find(`.jw_dynamic_input[data-name="${rule.if}"]`).val();
+              if (selcInput == "radio" || selcInput == "multicheckbox" || selcInput == "checkbox") {
+                selectedValue = xfs.find(`.jw_dynamic_input[data-name="${rule.if}"]:checked`).val();
               }
               if (rule.operator) {
                 // Handle conditions with operators
                 var comparisonValue = parseFloat(rule.value);
                 var selectedValueNumeric = parseFloat(selectedValue);
-                if (
-                  rule.operator === ">" &&
-                  selectedValueNumeric > comparisonValue
-                ) {
+                if (rule.operator === ">" && selectedValueNumeric > comparisonValue) {
                   applyActions(rule.actions, xfs);
-                } else if (
-                  rule.operator === "=" &&
-                  selectedValue === rule.value
-                ) {
+                } else if (rule.operator === "=" && selectedValue === rule.value) {
                   applyActions(rule.actions, xfs);
                 }
                 // Add more operator handling as needed
               } else {
-                if (rule.is && rule.is == "is_empty" && selectedValue == "") {
+                if (rule.is && rule.is == 'is_empty' && selectedValue == '') {
                   applyActions(rule.actions, xfs);
-                } else if (
-                  rule.is &&
-                  rule.is == "not_empty" &&
-                  selectedValue != ""
-                ) {
+                }
+                else if (rule.is && rule.is == 'not_empty' && selectedValue != '') {
                   applyActions(rule.actions, xfs);
-                } else if (rule.is && selectedValue === rule.is) {
+                }
+                else if (rule.is && selectedValue === rule.is) {
                   applyActions(rule.actions, xfs);
-                } else if (rule.is_not && selectedValue != rule.is_not) {
+                }
+                else if (rule.is_not && selectedValue != rule.is_not) {
                   applyActions(rule.actions, xfs);
                 }
               }
@@ -1796,24 +1617,14 @@
       //         }
       //     }
       // })
-      function applyActions(actions, xfd, matched = true, condit = "is") {
+      function applyActions(actions, xfd, matched = true, condit = 'is') {
         actions.forEach(function (action) {
-          let $targetInput = xfd.find(
-            `.jw_dynamic_input[data-name="${action.target}"]`
-          );
-          let $target = $targetInput.closest(".dynamicField");
+          let $targetInput = xfd.find(`.jw_dynamic_input[data-name="${action.target}"]`);
+          let $target = $targetInput.closest('.dynamicField');
           if (action.type === "show") {
-            if (matched) {
-              $target.show();
-            } else {
-              $target.hide();
-            }
+            if (matched) { $target.show(); } else { $target.hide(); }
           } else if (action.type === "hide") {
-            if (matched) {
-              $target.hide();
-            } else {
-              $target.show();
-            }
+            if (matched) { $target.hide(); } else { $target.show(); }
           } else if (action.type === "enable") {
             $target.prop("disabled", false);
           } else if (action.type === "disable") {
@@ -1827,48 +1638,24 @@
       }
     }
 
-    $(document).on("submit", "form.jw_dynamic_form", function (e) {
-      var that = $(this);
-      var _dfltValue = $(this).find('input[type="submit"]').val();
-      $(this).find('input[type="submit"]').val("Sending...");
-      $(this).find('input[type="submit"]').prop("disabled", true);
-      var fid = $(this).find("._tx_").val();
-      var otp = $(this).find("._otp_").val();
-      e.preventDefault();
-      var formData = [],
-        currentInputs = $(this).find("li.dynamicField"),
-        $obj = {},
-        fd = new FormData();
+
+    $(document).on('submit', 'form.jw_dynamic_form', function (e) {
+      var that = $(this); var _dfltValue = $(this).find('input[type="submit"]').val(); $(this).find('input[type="submit"]').val('Sending...'); $(this).find('input[type="submit"]').prop('disabled', true); var fid = $(this).find('._tx_').val(); var otp = $(this).find('._otp_').val(); e.preventDefault();
+      var formData = [], currentInputs = $(this).find('li.dynamicField'), $obj = {}, fd = new FormData();
       $.each(currentInputs, function (i, inputParent) {
-        var thevalue = $(this).find(".jw_dynamic_input").val(),
-          type = $(this).data("input");
-        if (type == "singlefile") {
-          var name = $(this).find(".jw_dynamic_input").data("name");
-          var file_data = $(this).find(".jw_dynamic_input").prop("files")[0];
-          fd.append(name, file_data);
-        }
-        var mode = $(this).data("mode");
-        if (mode == "system" || mode == "normal") {
-          var name = $(this).find(".jw_dynamic_input").data("name");
-          $obj[name] = thevalue;
-        }
+        var thevalue = $(this).find('.jw_dynamic_input').val(), type = $(this).data('input');
+        if (type == "singlefile") { var name = $(this).find('.jw_dynamic_input').data('name'); var file_data = $(this).find('.jw_dynamic_input').prop('files')[0]; fd.append(name, file_data); }
+        var mode = $(this).data('mode'); if (mode == "system" || mode == "normal") { var name = $(this).find('.jw_dynamic_input').data('name'); $obj[name] = thevalue; }
       });
-      fd.append("_fid", fid);
-      fd.append("_otp_", otp);
+      fd.append('_fid', fid);
+      fd.append('_otp_', otp);
       formData.push($obj);
       if (formData.length > 0) {
-        var _tx = JSON.stringify(formData);
-        fd.append("_form_", _tx);
+        var _tx = JSON.stringify(formData); fd.append('_form_', _tx);
         $.ajax({
-          type: "POST",
-          dataType: "json",
-          url: "",
-          data: fd,
-          processData: false,
-          contentType: false,
-          success: function (es) {
+          type: 'POST', dataType: 'json', url: '', data: fd, processData: false, contentType: false, success: function (es) {
             if (es.code == 1) {
-              that.find('input[type="submit"]').val("Sent!");
+              that.find('input[type="submit"]').val('Sent!');
               if (es.msg.t) {
                 var rType = es.msg.t;
                 if (rType == "t") {
@@ -1878,18 +1665,14 @@
                                     ${es.msg.v}
                                 </div>`;
                   var newappend = that.append(dhtml);
-                  setTimeout(() => {
-                    $(".response_" + randomId + "").fadeOut(function (res) {
-                      $(this).remove();
-                    });
-                  }, 10000);
-                } else if (rType == "r") {
-                  location.href = es.msg.v;
-                }
+                  setTimeout(() => { $('.response_' + randomId + '').fadeOut(function (res) { $(this).remove(); }); }, 10000);
+                } else if (rType == "r") { location.href = es.msg.v; }
+
               }
               that.reset();
-            } else {
-              that.find('input[type="submit"]').prop("disabled", false);
+            }
+            else {
+              that.find('input[type="submit"]').prop('disabled', false);
               if (es.msg.t) {
                 var rType = es.msg.t;
                 var randomId = 1 + fid;
@@ -1898,66 +1681,48 @@
                             <div class="response_${randomId} see-padding-left-right-8 see-padding-8 see-red-text see-border" style="color:red;">
                                 ${es.msg.v}
                             </div>`;
-                if ($(`.response_${randomId}`).length > 0) {
-                  $(`.response_${randomId}`).remove();
-                }
+                if ($(`.response_${randomId}`).length > 0) { $(`.response_${randomId}`).remove(); }
                 var newappend = that.prepend(dhtml);
                 if (rType == "ovs") {
-                  that.find(".otpcode input").val("");
-                  that.find("li.dynamicField").hide();
-                  that.find("li.dynamicField.otpcode").fadeIn();
-                  that.find("._back2form").click(function () {
-                    that.find("li.dynamicField").show();
-                    that.find(".otpcode").hide();
+                  that.find('.otpcode input').val('');
+                  that.find('li.dynamicField').hide();
+                  that.find('li.dynamicField.otpcode').fadeIn();
+                  that.find('._back2form').click(function () {
+                    that.find('li.dynamicField').show();
+                    that.find('.otpcode').hide();
                     $(`.response_${randomId}`).remove();
-                  });
+                  })
                 }
                 that.find('input[type="submit"]').val(_dfltValue);
               }
             }
-          },
+          }
         });
       }
     });
 
     /* CUSTOM UPLOAD ATTRIBUTE */
     var _URL = window.URL || window.webkitURL;
-    var max_image_size = 1024 * 1000; 
+    var max_image_size = 1024 * 1000 // 1 MB Maximum
 
     $('input[type="file"]').change(function (e) {
-      var file,
-        img,
-        that = $(this);
-      if ((file = this.files[0])) {
-        if (file.size > max_image_size) {
-          alert(
-            "File size should be maximum of " + max_image_size / 1024 + " KB"
-          );
-        }
-      }
+      var file, img, that = $(this);
+      if ((file = this.files[0])) { if (file.size > max_image_size) { alert("File size should be maximum of " + (max_image_size / 1024) + " KB"); } }
     });
 
     var navList = document.getElementById("nav-lists");
-    function Show() {
-      navList.classList.add("_Menus-show");
-    }
-    function Hide() {
-      navList.classList.remove("_Menus-show");
-    }
+    function Show() { navList.classList.add("_Menus-show"); }
+    function Hide() { navList.classList.remove("_Menus-show"); }
 
     $(document).ready(function () {
       loadDatePicker();
     });
-    function jwpopup(__popId, deley = 0, trans = "fade") {
+    function jwpopup(__popId, deley = 0, trans = 'fade') {
       __popId = __popId.split("seepoup")[1];
       console.log(__popId);
       //$("." + __popId).fadeIn();
       $(`[data-popup="${__popId}"]`).fadeIn();
-      $(`[data-popup="${__popId}"]`)
-        .find(".close")
-        .click(function () {
-          $(`[data-popup="${__popId}"]`).fadeOut();
-        });
+      $(`[data-popup="${__popId}"]`).find('.close').click(function () { $(`[data-popup="${__popId}"]`).fadeOut(); })
     }
 
     function popAlert(title, content) {
@@ -1972,14 +1737,11 @@
                 </div>
             </div>
         </div> `;
-      $("popups").html(XHTML);
-      $("popups")
-        .removeClass("see-dp-none")
-        .find(".rs-modal, .rs-pop-modal")
-        .show();
-      var popupContainer = document.getElementsByTagName("popups")[0];
+      $('popups').html(XHTML);
+      $('popups').removeClass('see-dp-none').find('.rs-modal, .rs-pop-modal').show();
+      var popupContainer = document.getElementsByTagName('popups')[0];
       var body = document.body;
-      body.addEventListener("click", function (e) {
+      body.addEventListener('click', function (e) {
         popupContainer.classList.add("see-dp-none");
       });
     }
@@ -1988,95 +1750,61 @@
     var transheader = "no";
 
     function loadDatePicker() {
-      if ($(".see_datetime").length > 0) {
-        $(".see_datetime").datetimepicker({ step: 15, format: "Y-m-d H:i" });
-      }
-      if ($(".see_date").length > 0) {
-        $(".see_date").datetimepicker({ timepicker: false, format: "d-m-Y" });
-      }
-      if ($(".see_time").length > 0) {
-        $(".see_time").datetimepicker({
-          timepicker: true,
-          datepicker: false,
-          format: "H:i",
-          step: 15,
-        });
-      }
+      if ($('.see_datetime').length > 0) { $('.see_datetime').datetimepicker({ step: 15, format: 'Y-m-d H:i' }); }
+      if ($('.see_date').length > 0) { $('.see_date').datetimepicker({ timepicker: false, format: 'd-m-Y' }); }
+      if ($('.see_time').length > 0) { $('.see_time').datetimepicker({ timepicker: true, datepicker: false, format: 'H:i', step: 15 }); }
     }
 
-    var $animation_elements = $(".jw-animate"),
-      $window = $(window);
+    var $animation_elements = $('.jw-animate'), $window = $(window);
     function check_if_in_view() {
       var window_height = $window.height();
       var window_top_position = $window.scrollTop();
-      var window_bottom_position = window_top_position + window_height;
+      var window_bottom_position = (window_top_position + window_height);
 
       $.each($animation_elements, function () {
         var $element = $(this);
         var element_height = $element.outerHeight();
         var element_top_position = $element.offset().top;
-        var element_bottom_position = element_top_position + element_height;
+        var element_bottom_position = (element_top_position + element_height);
 
         //check to see if this current container is within viewport
-        if (
-          element_bottom_position >= window_top_position &&
-          element_top_position <= window_bottom_position
-        ) {
-          $element.addClass("go");
+        if ((element_bottom_position >= window_top_position) &&
+          (element_top_position <= window_bottom_position)) {
+          $element.addClass('go');
         } else {
-          $element.removeClass("go");
+          $element.removeClass('go');
         }
       });
     }
-    $window.on("scroll resize", check_if_in_view);
-    $window.trigger("scroll");
+    $window.on('scroll resize', check_if_in_view);
+    $window.trigger('scroll');
 
-    $("._smart_list_link , .see-list-item").click(function (e) {
+    $('._smart_list_link , .see-list-item').click(function (e) {
       console.log(e.target);
-      if ($(this).find("a").length > 0 && !$(e.target).attr("href")) {
-        if ($(this).find("a:first").attr("target") == "_blank") {
-          window.open($(this).find("a:first").attr("href"), "_blank");
+      if ($(this).find("a").length > 0 && !$(e.target).attr('href')) {
+
+        if ($(this).find("a:first").attr('target') == "_blank") {
+          window.open($(this).find("a:first").attr("href"), '_blank');
+
         } else {
           window.location = $(this).find("a:first").attr("href");
         }
       }
-    });
+    })
     function smart_list_link(list_link) {
       window.location = $(list_link).find("a").attr("href");
     }
-    $(".jwm_click").click(function () {
-      $(this)
-        .closest("jw-media")
-        .find("iframe")
-        .fadeIn()
-        .attr(
-          "src",
-          $(this).closest("jw-media").find("iframe").attr("data-src")
-        );
-      $(this).remove();
-    });
+    $('.jwm_click').click(function () { $(this).closest('jw-media').find('iframe').fadeIn().attr('src', $(this).closest('jw-media').find('iframe').attr('data-src')); $(this).remove(); });
     $(function () {
-      (() => {
-        "use strict";
-        const a = document.getElementsByClassName("asyncImage");
-        Array.from(a).map((a) => {
-          const b = new Image();
-          (b.src = a.dataset.src),
-            (b.onload = () => (
-              a.classList.remove("asyncImage"),
-              a.nodeName === "IMG"
-                ? (a.src = a.dataset.src)
-                : (a.style.backgroundImage = `url(%24%7ba.dataset.html)`)
-            ));
-        });
-      })();
+      (() => { 'use strict'; const a = document.getElementsByClassName('asyncImage'); Array.from(a).map(a => { const b = new Image; b.src = a.dataset.src, b.onload = () => (a.classList.remove('asyncImage'), a.nodeName === 'IMG' ? a.src = a.dataset.src : a.style.backgroundImage = `url(%24%7ba.dataset.html)`) }) })();
     });
   </script>
   <!--<script type="text/javascript" src="https://static.joonsite.com/assets/js/header.min.js"></script>-->
   <script src="dist/____220716172147app.js" defer=""></script>
+
+
+
 </body>
 
 </html>
-<script>
-  console.log("JWBolt - Page loaded in 0.27910184860229 seconds");
-</script>
+<script>console.log('JWBolt - Page loaded in 0.28444886207581 seconds')</script>

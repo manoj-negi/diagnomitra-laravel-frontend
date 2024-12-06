@@ -1,0 +1,151 @@
+/* FOOTER CSSS */
+/* .nav{
+  width: 100%;
+  position:fixed;
+} */
+.fontStyle7 a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em; /* Increase the font size */
+}
+
+.fontStyle7 a:hover {
+  color: #eb2188;
+  transition: color 0.3s ease-in-out;
+}
+
+.quick-link i {
+  margin-right: 8px;
+}
+
+.footer_socel_icon .fontStyle8 a {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.footer_socel_icon .fontStyle8 a:hover {
+  transform: scale(1.2);
+  color: #eb2188;
+}
+
+.footer_icon, .footer_style ul li {
+  align-items: center;
+}
+
+.footer_style ul {
+  list-style: none;
+  padding: 0;
+  /* display: flex; */
+  flex-direction: column;
+  margin-left: 105px;
+  align-items: center;
+}
+
+.footer_style ul li {
+  margin-bottom: 15px; 
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.footer_style ul li:hover {
+  color: #eb2188;
+  transform: scale(1.1);
+}
+
+.footer_style ul li a {
+  display: flex;
+  align-items: center;
+}
+
+.footer_copy .fontStyle8 {
+  font-weight: bold;
+}
+
+.footer_style .theme-subtitle {
+  text-align: justify;
+}
+/* FOOTER CSSS */
+
+
+.search {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 23px;
+  padding: 0px;
+}
+
+  .search_input{
+  color: rgb(19, 18, 18);
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-top:5px;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+  .search .search_input {
+      padding: 0 10px;
+      width: 299px;
+      caret-color: #eb2188;
+      transition: width 0.4s linear;
+  }
+  /* .search:hover > .search_icon{
+  background: red;
+  color: #4fe3e0;
+  } */
+
+  .search_icon{
+  height: 50px;
+  width: 50px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  background-color:black;
+  }
+  
+a:link{
+  text-decoration:none;
+}    
+
+
+
+.nav-links .links li a {
+  position: relative;
+  display: block;
+  padding: 11px 17px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+}
+.ques{
+color: #d11596;  }
+
+.top-bar {
+ background-color:#d2edf1; 
+}
+.headingfont{
+  font-size: 3rem;
+  /* font-weight: bold; */
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-family: "IBM Plex Sans", sans-serif;
+}  
+.h3{
+font-family: "IBM Plex Sans", sans-serif;
+}  
+.firstsec{
+background-color: rgba(0,0,0,.1);
+}
